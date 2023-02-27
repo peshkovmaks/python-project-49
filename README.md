@@ -4,4 +4,4 @@
 
 ### Game launch examples
 run brain-even
-<script async id="asciicast-5TS5PvrBJ37o29U2OR9oojlk2" src="https://asciinema.org/a/5TS5PvrBJ37o29U2OR9oojlk2.js"></script>
+<a href="https://asciinema.org/a/5TS5PvrBJ37o29U2OR9oojlk2" target="_blank"><img src="https://asciinema.org/a/5TS5PvrBJ37o29U2OR9oojlk2.svg" /></a>
