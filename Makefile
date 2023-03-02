@@ -10,13 +10,13 @@ brain-even:
 brain-calc:
 	poetry run brain-calc
 
-brain_gcd:
+brain-gcd:
 	poetry run brain_gcd
 
 brain-progression:
 	poetry run brain_progression
 
-brain_prime:
+brain-prime:
 	poetry run brain_prime
 
 build:
