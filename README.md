@@ -5,3 +5,15 @@
 ### Game launch examples
 run brain-even
 <a href="https://asciinema.org/a/5TS5PvrBJ37o29U2OR9oojlk2" target="_blank"><img src="https://asciinema.org/a/5TS5PvrBJ37o29U2OR9oojlk2.svg" /></a>
+
+run brain-calc
+<a href="https://asciinema.org/a/cZ5sP3TgbWvAxvUY7SpkppqdX" target="_blank"><img src="https://asciinema.org/a/cZ5sP3TgbWvAxvUY7SpkppqdX.svg" /></a>
+
+run brain-progression
+<a href="https://asciinema.org/a/iL0I4zlilPpv6BPZlHQfEkCEQ" target="_blank"><img src="https://asciinema.org/a/iL0I4zlilPpv6BPZlHQfEkCEQ.svg" /></a>
+
+run brain-gcd
+<a href="https://asciinema.org/a/KEzNmamBpgzAYQSMle5Hp370W" target="_blank"><img src="https://asciinema.org/a/KEzNmamBpgzAYQSMle5Hp370W.svg" /></a>
+
+run brain-prime
+<a href="https://asciinema.org/a/K4La1QPeMD7y0vo4M7rq6kl3D" target="_blank"><img src="https://asciinema.org/a/K4La1QPeMD7y0vo4M7rq6kl3D.svg" /></a>
