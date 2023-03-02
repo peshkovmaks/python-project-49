@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/peshkovmaks/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/peshkovmaks/python-project-49/actions)
 <a href="https://codeclimate.com/github/peshkovmaks/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/b2364019d8f6c6065a65/maintainability" /></a>
-
+## These are 5 mathematical mini games for the terminal.
 ### Game launch examples
 run brain-even
 <a href="https://asciinema.org/a/5TS5PvrBJ37o29U2OR9oojlk2" target="_blank"><img src="https://asciinema.org/a/5TS5PvrBJ37o29U2OR9oojlk2.svg" /></a>
