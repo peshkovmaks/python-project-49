@@ -8,7 +8,7 @@ COUNT_RAUND = 3
 def run_game(game, RULES):
     print("Welcome to the Brain Games!")
     user_name = prompt.string("May I have your name? ")
-    print(f"Hello,  {user_name.lower().title()}!")
+    print(f"Hello, {user_name.lower().title()}!")
     print(RULES)
     count = 0
 
