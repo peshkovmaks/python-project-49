@@ -3,7 +3,7 @@ from random import randint
 from brain_games.engine import run_game
 
 # specify the rules of the game that we will show to the user
-RULES = "Find the greatest common divisor of given numbers."
+RULES = "What number is missing in the progression?"
 
 # specify the parameters for the game conditions and the correct answer
 def game_conditions():
