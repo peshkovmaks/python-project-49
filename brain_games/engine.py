@@ -21,7 +21,9 @@ def run_game(game, RULES):
             count += 1
         else:
             print(
-                f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'. Let's try again, {user_name.lower().title()}!"
+                f"'{user_answer}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'."
+                f"Let's try again, {user_name.lower().title()}!"
             )
             return
     print(f"Congratulations, {user_name.lower().title()}!")
