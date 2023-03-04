@@ -14,8 +14,8 @@ def game_conditions():
     list_operation = {"*": operator.mul, "-": operator.sub, "+": operator.add}
     random_operation = choice(list(list_operation))
     operation = list_operation[random_operation]
-
-    question = print(f"{random_number_first} {operation} {random_number_second}")
+    expression = f"{random_number_first} {random_operation} {random_number_second}"
+    question = print(expression)
     correct_answer = operation(random_number_first, random_number_second)
 
     return question, correct_answer
