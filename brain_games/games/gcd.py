@@ -11,7 +11,7 @@ RULES = "Find the greatest common divisor of given numbers."
 def game_conditions():
     random_number_first = randint(1, 99)
     random_number_second = randint(1, 99)
-    question = print(f"{random_number_first} {random_number_second}")
+    question = print(f"Question: {random_number_first} {random_number_second}")
     correct_answer = gcd(random_number_first, random_number_second)
     return question, correct_answer
 

@@ -17,7 +17,7 @@ def game_conditions():
     correct_answer = progression[index_hidden_number]
     progression[index_hidden_number] = ".."
 
-    question = print(" ".join(map(str, progression)))
+    question = print(f'Question: {" ".join(map(str, progression))}')
     return question, correct_answer
 
 
