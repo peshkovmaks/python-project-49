@@ -24,4 +24,4 @@ def run_game(game, RULES):
                 f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'. Let's try again, {user_name.lower().title()}!"
             )
             return
-    print(f"Congratulations {user_name.lower().title()}!")
+    print(f"Congratulations, {user_name.lower().title()}!")
