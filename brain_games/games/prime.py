@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from random import randint
-from brain_games.engine import run_game
 
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 # specify the rules of the game that we will show to the user
@@ -24,8 +23,3 @@ def game_conditions():
     question = print(f"Question: {random_number}")
     correct_answer = 'yes' if check_prime(random_number) else 'no'
     return question, correct_answer
-
-
-def start_game():
-    # import game engine with game conditions and rules
-    run_game(game_conditions, RULES)

@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.engine import run_game
 
 RULES = "What number is missing in the progression?"
 # specify the rules of the game that we will show to the user
@@ -28,8 +27,3 @@ def game_conditions():
 
     question = print(f'Question: {" ".join(map(str, progression))}')
     return question, correct_answer
-
-
-# import game engine with game conditions and rules
-def start_game():
-    run_game(game_conditions, RULES)
