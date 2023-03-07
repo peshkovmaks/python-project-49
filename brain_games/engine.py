@@ -22,7 +22,7 @@ def run_game(game, RULES):
         else:
             print(
                 f"'{user_answer}' is wrong answer ;(. "
-                f"Correct answer was '{correct_answer}'."
+                f"Correct answer was '{correct_answer}'. "
                 f"Let's try again, {user_name.lower().title()}!"
             )
             return
