@@ -29,4 +29,3 @@ def game_conditions():
 def start_game():
     # import game engine with game conditions and rules
     run_game(game_conditions, RULES)
-
