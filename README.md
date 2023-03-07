@@ -20,7 +20,7 @@ brain-prime
 brain-gcd
 ```
 
-Break your head in Brain games!
+This game will make your brain explode!
 
 ### Game launch examples
 run brain-even
