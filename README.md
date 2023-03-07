@@ -2,6 +2,25 @@
 [![Actions Status](https://github.com/peshkovmaks/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/peshkovmaks/python-project-49/actions)
 <a href="https://codeclimate.com/github/peshkovmaks/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/b2364019d8f6c6065a65/maintainability" /></a>
 ## These are 5 mathematical mini games for the terminal.
+
+The current project is my first on Python.
+The project consists of 5 math games, you need a Terminal to run.
+
+To install the package, use the commands:
+```
+make package-install
+```
+
+To run the game, use the commands:
+```brain-calc
+brain-even
+brain-progression
+brain-prime
+brain-gcd
+```
+
+Break your head in Brain games!
+
 ### Game launch examples
 run brain-even
 <a href="https://asciinema.org/a/5TS5PvrBJ37o29U2OR9oojlk2" target="_blank"><img src="https://asciinema.org/a/5TS5PvrBJ37o29U2OR9oojlk2.svg" /></a>
