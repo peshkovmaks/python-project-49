@@ -5,15 +5,14 @@ from brain_games.engine import run_game
 RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 # specify the rules of the game that we will show to the user
 
+RANDOM_NUMBER = randint(1, 99)
+# random number limits
+
 
 def game_conditions():
     # specify the parameters for the game conditions and the correct answer
-    random_number = randint(1, 99)
-    question = print(f"Question: {random_number}")
-    if random_number % 2 == 0:
-        correct_answer = "yes"
-    else:
-        correct_answer = "no"
+    question = print(f"Question: {RANDOM_NUMBER}")
+    correct_answer = 'yes' if RANDOM_NUMBER % 2 == 0 else 'no'
     return question, correct_answer
 
 

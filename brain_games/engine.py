@@ -2,7 +2,7 @@
 import prompt
 
 
-COUNT_RAUND = 3
+COUNT_ROUND = 3
 
 
 def run_game(game, RULES):
@@ -12,7 +12,7 @@ def run_game(game, RULES):
     print(RULES)
     count = 0
 
-    while count < COUNT_RAUND:
+    while count < COUNT_ROUND:
         question, correct_answer = game()
         question
         user_answer = prompt.string("Your answer? ")

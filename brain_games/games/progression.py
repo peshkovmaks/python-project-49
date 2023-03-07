@@ -1,18 +1,19 @@
 from random import randint
 from brain_games.engine import run_game
 
-# specify the rules of the game that we will show to the user
 RULES = "What number is missing in the progression?"
+# specify the rules of the game that we will show to the user
+
+PROGRESSION_START = randint(1, 15)
+PROGRESSION_STEP = randint(6, 9)
+PROGRESSION_END = (PROGRESSION_STEP + 1) * (randint(6, 13))
+# specify random leght and step progression
 
 
 def game_conditions():
     # specify the parameters for the game conditions and the correct answer
-    # specify random leght and step progression
-    progression_start = randint(1, 15)
-    progression_step = randint(6, 9)
-    progression_end = (progression_step + 1) * (randint(6, 13))
-    progression = list(
-        range(progression_start, progression_end, progression_step))
+    progression = list(range(PROGRESSION_START, PROGRESSION_END, 
+                             PROGRESSION_STEP))
     # specify hidden number and hidden symbol
     index_hidden_number = randint(0, len(progression) - 1)
     correct_answer = progression[index_hidden_number]
