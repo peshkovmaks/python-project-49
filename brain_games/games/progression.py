@@ -17,12 +17,10 @@ RAND_MAX_END = 13
 
 def game_conditions():
     # specify the parameters for the game conditions and the correct answer
-    progression_start = randint(RAND_MIN_START, RAND_MAX_START)
-    progression_step = randint(RAND_MIN_STEP, RAND_MAX_STEP)
-    progression_end = (progression_step + 1) * (randint(RAND_MIN_END, 
-                                                        RAND_MAX_END))
-    progression = list(range(progression_start, progression_end, 
-                             progression_step))
+    pr_start = randint(RAND_MIN_START, RAND_MAX_START)
+    pr_step = randint(RAND_MIN_STEP, RAND_MAX_STEP)
+    pr_end = (pr_step + 1) * (randint(RAND_MIN_END, RAND_MAX_END))
+    progression = list(range(pr_start, pr_end, pr_step))
     # specify hidden number and hidden symbol
     index_hidden_number = randint(0, len(progression) - 1)
     correct_answer = progression[index_hidden_number]
