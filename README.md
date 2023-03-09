@@ -14,9 +14,17 @@ make package-install
 To run the game, use the commands:
 ```
 brain-calc
+```
+```
 brain-even
+```
+```
 brain-progression
+```
+```
 brain-prime
+```
+```
 brain-gcd
 ```
 
