@@ -14,7 +14,7 @@ RAND_MAX_END = 13
 # specify random leght and step progression
 
 
-def game_conditions():
+def get_conditions():
     # specify the parameters for the game conditions and the correct answer
     pr_start = randint(RAND_MIN_START, RAND_MAX_START)
     pr_step = randint(RAND_MIN_STEP, RAND_MAX_STEP)

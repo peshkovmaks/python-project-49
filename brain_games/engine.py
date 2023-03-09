@@ -5,15 +5,15 @@ import prompt
 COUNT_ROUND = 3
 
 
-def run_game(game, RULES):
+def run_game(game):
     print("Welcome to the Brain Games!")
     user_name = prompt.string("May I have your name? ")
     print(f"Hello, {user_name.lower().title()}!")
-    print(RULES)
+    print(game.RULES)
     count = 0
 
     while count < COUNT_ROUND:
-        question, correct_answer = game()
+        question, correct_answer = game.get_conditions()
         question
         user_answer = prompt.string("Your answer? ")
         if str(user_answer) == str(correct_answer):

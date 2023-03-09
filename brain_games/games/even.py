@@ -9,7 +9,7 @@ RAND_MAX = 99
 # random number limits
 
 
-def game_conditions():
+def get_conditions():
     # specify the parameters for the game conditions and the correct answer
     random_number = randint(RAND_MIN, RAND_MAX)
     question = print(f"Question: {random_number}")

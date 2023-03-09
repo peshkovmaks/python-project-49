@@ -11,7 +11,7 @@ RAND_MAX = 99
 # random number limits
 
 
-def game_conditions():
+def get_conditions():
     # specify the parameters for the game conditions and the correct answer
     random_number_first = randint(RAND_MIN, RAND_MAX)
     random_number_second = randint(RAND_MIN, RAND_MAX)

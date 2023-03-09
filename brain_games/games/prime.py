@@ -17,7 +17,7 @@ def check_prime(number):
     return True if k <= 0 else False
 
 
-def game_conditions():
+def get():
     random_number = randint(RAND_MIN, RAND_MAX)
     # specify the parameters for the game conditions and the correct answer
     question = print(f"Question: {random_number}")
